@@ -12,6 +12,7 @@
 		C7935D5D2B4A598F009AC45B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7935D5C2B4A598F009AC45B /* Assets.xcassets */; };
 		C7935D602B4A598F009AC45B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7935D5F2B4A598F009AC45B /* Preview Assets.xcassets */; };
 		C7935D672B4A5A34009AC45B /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7935D662B4A5A34009AC45B /* AppViewModel.swift */; };
+		C7935D692B4A64F6009AC45B /* DataScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7935D682B4A64F6009AC45B /* DataScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C7935D5C2B4A598F009AC45B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7935D5F2B4A598F009AC45B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C7935D662B4A5A34009AC45B /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		C7935D682B4A64F6009AC45B /* DataScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				C7935D5C2B4A598F009AC45B /* Assets.xcassets */,
 				C7935D5E2B4A598F009AC45B /* Preview Content */,
 				C7935D662B4A5A34009AC45B /* AppViewModel.swift */,
+				C7935D682B4A64F6009AC45B /* DataScannerView.swift */,
 			);
 			path = BarcodeTextScanner;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				C7935D5B2B4A598E009AC45B /* ContentView.swift in Sources */,
 				C7935D592B4A598E009AC45B /* BarcodeTextScannerApp.swift in Sources */,
 				C7935D672B4A5A34009AC45B /* AppViewModel.swift in Sources */,
+				C7935D692B4A64F6009AC45B /* DataScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +324,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
