@@ -11,6 +11,7 @@
 		C7935D5B2B4A598E009AC45B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7935D5A2B4A598E009AC45B /* ContentView.swift */; };
 		C7935D5D2B4A598F009AC45B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7935D5C2B4A598F009AC45B /* Assets.xcassets */; };
 		C7935D602B4A598F009AC45B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7935D5F2B4A598F009AC45B /* Preview Assets.xcassets */; };
+		C7935D672B4A5A34009AC45B /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7935D662B4A5A34009AC45B /* AppViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C7935D5A2B4A598E009AC45B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C7935D5C2B4A598F009AC45B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7935D5F2B4A598F009AC45B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7935D662B4A5A34009AC45B /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				C7935D5A2B4A598E009AC45B /* ContentView.swift */,
 				C7935D5C2B4A598F009AC45B /* Assets.xcassets */,
 				C7935D5E2B4A598F009AC45B /* Preview Content */,
+				C7935D662B4A5A34009AC45B /* AppViewModel.swift */,
 			);
 			path = BarcodeTextScanner;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				C7935D5B2B4A598E009AC45B /* ContentView.swift in Sources */,
 				C7935D592B4A598E009AC45B /* BarcodeTextScannerApp.swift in Sources */,
+				C7935D672B4A5A34009AC45B /* AppViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,9 @@
 				DEVELOPMENT_TEAM = VFGF7JD733;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs camera access to scan barcode and text.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +311,9 @@
 				DEVELOPMENT_TEAM = VFGF7JD733;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs camera access to scan barcode and text.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
